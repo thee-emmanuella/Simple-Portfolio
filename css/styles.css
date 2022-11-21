@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Rubik+Microbe&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: purple;
+  width: 5%;
+  margin: 4rem auto;
+}
+
+h1,h3 {
+  color: #7858A6;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #7858A6;
+}
+
+.navbar{
+  padding: 2rem;
+}
+.navbar h3 {
+  color: white;
+  font-family: 'Rubik Microbe', cursive;
+}
+
+.nav-item {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  margin: 8px;
+  color: white;
+}
+
+.nav-item a:hover {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.container {
+  /* display: flex; */
+  padding: 2rem 2rem 0;
+  text-align: center;
+}
+
+.container img {
+  width: 20%;
+  height: 20%;
+}
+
+.header-text h1 {
+  font-size: 2rem;
+  margin-top: 12px;
+}
+
+.header-text p:last-of-type {
+  font-size: 1.2rem;
+  width: 50%;
+  margin: 1.5rem auto 0;
+}
+
+.header-text p:last-of-type span {
+  font-size: 2rem;  
+}
+
+/* Education and Hobbies */
+
+#education h3, #hobbies h3, #skills h3 {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+#education li, #hobbies li {
+  padding: 6px;
+  font-size: 1.2rem;
+}
+
+#skills table {
+  margin: 0 auto 1rem;
+  padding: 6px;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #7858A6;
+  padding: 2rem;
+}
+
+footer a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+footer a:hover {
+  font-weight: 600;
+}
